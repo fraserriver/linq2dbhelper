@@ -25,14 +25,6 @@ It is designed to seamlessly integrate with your own `DataConnection` class and 
 
 If your custom `DataConnection` class is named `MyActualDataConnection`, rename the provided partial class to `MyActualDataConnection` as well, and compile them together.  
 
-Example:
-```csharp
-public partial class MyActualDataConnection : DataConnection
-{
-    // Your custom logic here
-}
-```
-
 Use the helper methods just as you would in Linq2SQL:
 
 ```csharp
