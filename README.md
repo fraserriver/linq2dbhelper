@@ -1,6 +1,6 @@
 # Linq2DbHelper
 
-The **Linq2DbHelper** project provides a helper `MyDataConnection` partial class that extends `Linq2DB.Data.DataConnection`. This project is to enhance Linq2Db to act more like Linq2Sql 
+The **Linq2DbHelper** project is to enhance Linq2Db to act more like Linq2Sql. It provides a helper `MyDataConnection` partial class that extends `Linq2DB.Data.DataConnection`. 
 It is designed to seamlessly integrate with your own `DataConnection` class and enhance its functionality through reflection.
 
 ## Features
